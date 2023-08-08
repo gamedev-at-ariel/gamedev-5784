@@ -12,7 +12,7 @@
 
 שימו לב: כדי לצפות במצגות, צריך לשבט את כל המאגר למחשב שלכם:
 
-    git clone https://github.com/gamedev-at-ariel/gamedev-5783.git
+    git clone https://github.com/gamedev-at-ariel/gamedev-5784.git
 
 להיכנס לתיקיה של השבוע המתאים, 
 ולפתוח את הקובץ
@@ -38,6 +38,7 @@
 ## תודות
 הקורס פותח בעזרתם של הסטודנטים: מעוז גרוסמן, מיכאל למברגר, אור הדר וגיא אנקרי.
 חלק מחומרי הלימוד נכתבו ע"י חן אוסטרובסקי, אינה גריגור, אביהוא אושרי, ואליהו פרץ.
+הקלטות הקורס נערכו ע"י יוסף כחלון.
 
 חלק מהחומר על יוניטי נלמד מקורסים ביודמי: [Unity 2D](https://www.udemy.com/course/unitycourse/learn/lecture/10248514),  [Unity 3D](https://www.udemy.com/course/unitycourse2/learn/lecture/8859276),  [Unity RPG](https://www.udemy.com/course/unityrpg/learn/lecture/14593312).
 
