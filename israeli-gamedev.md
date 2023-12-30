@@ -25,6 +25,7 @@
 * [OneCode](https://onecode.co.il/) - פיתוח חוויות-משתמש משחקיות.
 * [3EEL](https://3eel.com/) - משחקי אסטרטגיה מציאותיים; כרמיאל.
 * [Spinomenal](https://spinomenal.com/) - משחקי מזל.
+* עוד: Papaya gaming, IronSource(?), Playstudios, SciPlay
 
 אנשים
 -----
