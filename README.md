@@ -46,6 +46,6 @@
 
 [התמונה למטה מאתר reddit](https://www.reddit.com/r/gaming/comments/84884e/video_games_ruined_my_life/).
 
-![Video games ruined my life](02-design-formal/video-games-ruined-my-lives.png)
+![Video games ruined my life](01b-design-formal/video-games-ruined-my-lives.png)
 
 </div>
