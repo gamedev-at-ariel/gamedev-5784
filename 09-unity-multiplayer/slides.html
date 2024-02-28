@@ -48,7 +48,9 @@
 	<li class="fragment">Photon Fusion:
 		<ul>
 			<li>+: רמת פיתוח גבוהה, כולל לובי.</li>
-			<li>-: מסחרי - בתשלום למשחק מעל 20 שחקנים בו-זמנית (CCU).</li>
+			<li>-: מסחרי - 
+				<a href="https://www.photonengine.com/fusion/pricing">בתשלום מעל 20 שחקנים בו-זמנית (CCU)</a>.
+			</li>
 		</ul>
 	</li>
 </ol>
@@ -71,23 +73,35 @@
 
 <section>
 	<h1>Fusion - מושגים</h1>
-	<ul>
-		<li class="fragment">NetworkObject: עצם עם "זהות" רשת <small>(מקביל ל GameObject)</small>.</li>
-		<li class="fragment">Runner.Spawn: יצירת עצם רשת <small>(במקום Instantiate)</small>.</li>
-		<li class="fragment">Runner.Despawn: השמדת עצם רשת <small>(במקום Destroy)</small>.</li>
-		<li class="fragment">Spawned: אירוע יצירת עצם רשת <small>(במקום Awake, Start)</small>.</li>
-		<li class="fragment">NetworkTransform: מיקום עצם רשת <small>(נוסף ל- Transform)</small>.</li>
-		<li class="fragment">Interpolation Target - עצם-משחק שהוא בן של עצם-רשת, ומכיל את כל רכיבי התצוגה שלו.</li>
-	</ul>
-</section>
+	<section>
+		<h2>עצמים</h2>
+		<ul>
+			<li class="fragment">NetworkObject: עצם עם "זהות" רשת <small>(מקביל ל GameObject)</small>.</li>
+			<li class="fragment">NetworkTransform: מיקום עצם רשת <small>(נוסף ל- Transform)</small>.</li>
+			<li class="fragment">Interpolation Target - עצם-משחק שהוא בן של עצם-רשת, ומכיל את כל רכיבי התצוגה שלו.</li>
+			<li class="fragment">NetworkBehavior - בסיס לסקריפטים על עצמי-רשת (במקום MonoBehavior).</li>
+		</ul>
+	</section>
 
-<section>
-	<h1>Fusion - מושגים - המשך</h1>
-	<ul>
-		<li class="fragment">FixedUpdateNetwork: עדכון בצורה עקבית <small>(במקום Update, FixedUpdate)</small>.</li>
-		<li class="fragment">Runner.DeltaTime: זמן מתואם ברשת <small>(במקום Time.deltaTime)</small>.</li>
-		<li class="fragment">[Networked]: תכונה המתעדכנת אצל כל השחקנים דרך הרשת.</li>
-	</ul>
+	<section>
+		<h2>יצירה והריסה</h2>
+		יש להפוך את השחקן ל"דגם" ולקשר אותו ל-PrototypeRunner.
+		<ul>
+			<li class="fragment">Runner.Spawn: יצירת עצם רשת <small>(במקום Instantiate)</small>.</li>
+			<li class="fragment">Runner.Despawn: הריסת עצם רשת <small>(במקום Destroy)</small>.</li>
+			<li class="fragment">Spawned: אירוע יצירת עצם רשת <small>(במקום Awake, Start)</small>.</li>
+		</ul>
+	</section>
+
+	<section>
+		<h2>עדכונים</h2>
+		<ul>
+			<li class="fragment">FixedUpdateNetwork: עדכון בצורה עקבית <small>(במקום Update, FixedUpdate)</small>.</li>
+			<li class="fragment">Runner.DeltaTime: זמן מתואם ברשת <small>(במקום Time.deltaTime)</small>.</li>
+			<li class="fragment">[Networked]: תכונה המתעדכנת אצל כל השחקנים דרך הרשת.</li>
+		</ul>
+	</section>
+	
 </section>
 
 
